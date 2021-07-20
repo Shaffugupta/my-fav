@@ -41,20 +41,27 @@ h1{
   font-size:18px;
 }
 .menu{
-    list-style-type: none;
-    right:30px;
+    list-style:none;
     cursor: pointer;
-    color:black;
+    height:50px;
+    position:fixed;
+    width:100%;
+    background-color: white;
+    padding-top: 25px;
+    margin-top: -1px;
     z-index: 10;
     margin-right: 10;
 }
 .link{
- float:right; 
+    display: inline;
     margin-left: 20px;
+    padding-left: 10px;
     font-size: 24px;
 }
 .link:hover{
-    background-color: cornflowerblue;
+    background-color: pink;
+    text-decoration: underline;
+    font-size:30px;
     
 }
 #hobby{
@@ -67,6 +74,18 @@ h1{
 #resize{
     margin-left:150px;
 }
+#resizer{
+    margin-left:300px;
+}
 #link{
    margin-left: 550px;
+}
+a{
+    text-shadow: 2px 2px pink;
+    text-decoration: none;
+}
+#recipes a{
+    color:blue!important;
+    text-decoration:none! important;
+    text-shadow:none! important;
 }
