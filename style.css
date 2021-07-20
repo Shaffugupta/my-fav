@@ -75,7 +75,7 @@ h1{
     margin-left:150px;
 }
 #resizer{
-    margin-left:300px;
+    margin-left:150px;
 }
 #link{
    margin-left: 550px;
@@ -88,4 +88,7 @@ a{
     color:blue!important;
     text-decoration:none! important;
     text-shadow:none! important;
+}
+#email{
+   font-size:24px; 
 }
